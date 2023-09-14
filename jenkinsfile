@@ -59,7 +59,7 @@ pipeline
         }
         always
         {
-            sh 'echo TO CHECK POLL SCM'
+            sh 'echo TO CHECK POLLS SCM'
         }
         aborted
         {
