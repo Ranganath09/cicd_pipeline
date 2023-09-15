@@ -59,11 +59,11 @@ pipeline
         }
         always
         {
-            sh 'echo TO CHECK POLLS SCM'
+            sh 'echo TO CHECK POLLS SCMS'
         }
         aborted
         {
-            sh 'echo THIS WILL EXECUTE DURING ABORTED1'
+            sh 'echo THIS WILL EXECUTE DURING ABORTED'
         }
          
      }
